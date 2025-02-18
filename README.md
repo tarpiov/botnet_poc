@@ -13,6 +13,8 @@ Dentro del `server.py` se registrarán los logs y aparecerán en pantalla.
 
 # Admin
 
+<img src="https://i.imgur.com/67oyEu4.png" width=600px>
+
 El admin se conectará de la misma forma que hace el bot, pero con la diferencia que el admin envía una clave de administrador "`poc`" con la cual el server interpretará de que se trata del administrador y no de un bot. (Por el contrario, el bot envía "`bot`")
 
 > El archivo `admin.py` cuenta con varios comandos para las comunicaciones de la botnet
