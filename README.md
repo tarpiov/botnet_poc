@@ -1,11 +1,24 @@
 # Tutorial de uso:
 
 En este repositorio se nos presentan 3 archivos:
+
 - `server.py` -> Servidor en escucha de conexiones de bots. *(IP y Puerto configurables)*
 - `target.py` -> Archivo a ejecutar por el bot (pruebalo en maquina virtual o con tu propio entorno).
 - `admin.py`  -> Command&Control, encargado de enviar ordenes al servidor.
 
->Primero debemos ejecutar el `server.py` y el `admin.py` en nuestra máquina local, posteriormente se ejecutará el `target.py`en la maquina víctima
+> Primero debemos ejecutar el `server.py` y el `admin.py` en nuestra máquina local, posteriormente se ejecutará el `target.py`en la maquina víctima
+
+```sh
+> python server.py
+```
+
+```
+> python admin.py
+```
+
+```
+> python target.py
+```
 
 Dentro del `server.py` se registrarán los logs y aparecerán en pantalla.
 
